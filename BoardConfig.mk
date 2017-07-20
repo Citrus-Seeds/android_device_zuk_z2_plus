@@ -33,6 +33,8 @@ BOARD_VENDOR := zuk
 
 TARGET_USE_CM_RAMDISK := true
 
+USE_LOCAL_GNSSPPS := true
+
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
