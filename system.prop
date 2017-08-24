@@ -166,16 +166,5 @@ ro.device.rear_cam=13 MP, f/2.2
 ro.device.front_cam=8 MP, f/2.0
 ro.device.screen_res=1080 x 1920, 5.0"
 
-# Opts by MOVZX
-# Spare some RAM
-persist.sys.purgeable_assets=1
-
-# Dex2oat threads for faster app installation
-# Use all 4 Cores/Threads of our CPU
-ro.sys.fw.dex2oat_thread_count=4
-dalvik.vm.dex2oat-threads=4
-dalvik.vm.image-dex2oat-threads=4
-debug.generate-debug-info=false
-
 # SafetyNet
 ro.boot.verifiedbootstate=green
